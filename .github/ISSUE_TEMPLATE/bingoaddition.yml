@@ -23,6 +23,8 @@ body:
       label: words
       description: Welche Wörter möchtest du hinzufügen (1 pro Zeile)
       placeholder: Bingo!
-      value: "nothing!"
+      value: "- nothing!
+      - nothing else!
+      - nothing else matters!"
     validations:
       required: true
