@@ -1,0 +1,30 @@
+name: Bingo Addition
+description: Etwas einem Bingo hinzufügen
+title: "[Bingo Addition]: "
+labels: ["addition", "content"]
+assignees:
+  - td00
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Vielen Dank für deine Hilfe!
+  - type: input
+    id: bingofield
+    attributes:
+      label: Bingo Name
+      description: Welches Bingo möchtest du erweitern? (Link)
+      placeholder: zB https://bingo.alpaka.live/bullshit01.html
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: words
+      description: Welche Wörter möchtest du hinzufügen (1 pro Zeile)
+      placeholder: Bingo!
+      value: " - nothing! \n
+      - nothing else! \n
+      - nothing else matters!"
+    validations:
+      required: true
