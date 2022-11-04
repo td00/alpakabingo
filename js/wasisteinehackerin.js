@@ -22,7 +22,6 @@ var JSONBingo = {"squares": [
         {"square": "Militär"},
         {"square": "Lochkarten"},
         {"square": "Open-Source"},
-        {"square": "Hacker*in"},
         {"square": "Anonymous"},
         {"square": "Polizei"},
         {"square": "Mastodon"},
