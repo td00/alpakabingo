@@ -28,5 +28,11 @@ var JSONBingo = {"squares": [
         {"square": "16"},
         {"square": "17"},
         {"square": "18"},
+        {"square": "19"},
+        {"square": "20"},
+        {"square": "21"},
+        {"square": "22"},
+        {"square": "23"},
+        {"square": "24"},
     ]
 };
