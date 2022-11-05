@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'opendyslexic';
+    src: url('/fonts/OpenDyslexic3-Regular.ttf');
+}
+
 * {
 	margin: 0px;
 	padding: 0px;
@@ -12,6 +17,7 @@
 
 body {
 	background-color: #a1a1a1;
+	font-family: "opendyslexic";
 	text-rendering: optimizeLegibility;
 }
 
@@ -48,7 +54,7 @@ body {
 	opacity: 0.5;
 	text-shadow: 0px 1px 0px #e1e1e1, 0px -1px 0px #313131;
    	background-color: none;
-	font-size: 2.8em;
+	font-size: 2.5em;
 	font-weight: bold;
 	padding: 8px 20px 8px 20px;
 	transition-property: background-color;
@@ -61,7 +67,7 @@ body {
 
 #footer {
 	text-align: center;
-	font-size: 1.4em;
+	font-size: 1.2em;
 	padding: 3px 20px;
 	margin-bottom: 80px;
 }
@@ -107,9 +113,10 @@ body {
 }
 
 .text {
+	font-family: "opendyslexic";
 	vertical-align: middle;
-	font-size: 1.2em;
-	line-height: 1.2em;
+	font-size: 0.95em;
+	line-height: 1.0em;
 }
 
 .small {
